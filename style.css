@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play&family=Lato:wght@300&display=swap');
+
+*{
+    font-family: 'cairo','sans-serif';
+}
+/* NavBar */
+.navbar{
+    background-color: #017DBF !important;
+    
+}
+/* =========================================================== */
+/* Slider == Carsoul */
+.carousel-item img{
+    height: 100vh;
+}
+
+.carousel-caption{
+    background-color: rgba(151, 194, 224,0.4);
+    border-radius: 20px;
+    bottom: 8rem;
+    /* margin-bottom: 20px; */
+    padding: 50px;
+}
+
+.carousel-caption h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+
+}
+.carousel-caption p{
+    font-size: 20px;
+}
+.carousel-caption:hover{
+    background-color: rgba(48, 97, 232,0.4);
+    transition:ease 0.7s ;
+}
+
+
+.carousel-indicators button{
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50% !important;
+    color: #017DBF !important;
+}
+
+.carousel-indicators button:hover{
+    background-color: crimson !important;
+}
+
+/* ======================================================================== */
+/* Products */
+
+
+
+.blue{
+    color: blue;
+}
+
+
+.blueCimon{
+    color:#017DBF
+}
+.blueCimon:hover{
+    color:crimson;
+    transition: all ease 1s;
+    cursor: pointer;
+}
+.card img{
+    height: 220px;
+    width: 100%;
+}
+
+.card{
+    overflow: hidden;
+}
+.card img:hover{
+    transform:scale(1.1) ;
+}
+.carousel-item img{
+    height: 150px;
+    width: 100%;
+}
+/* ==========================contact======================================================== */
+.contact{
+    height: 60vh;
+    background-image: url(Images/60.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.inputContact{
+    border-radius: 0px !important;
+}
+.contact button{
+    width: 150px !important;
+    border-radius: 20px 0px 0px 20px !important;
+}
+/* ======================================bestselling=============================================== */
+.mostOrder img{
+    /* height: 150px; */
+    width: 25%;
+}
+.mostOrder img:hover{
+    /* height: 150px; */
+    transform:rotate(5deg) scale(1.1);
+    transition:ease all 1s;
+}
+/* ==============================contract================================================ */
+#contract h5{
+    color: crimson !important;
+}
+.accordion .accordion-button{
+    background-color: #017DBF;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.accordion-button::after{
+    display: none;
+}
+/* ======= ===========================/* Services *============================================ */
+#services{
+    margin-top: 150px !important;
+}
+/* ======= ===========================/* offcanvas *============================================ */
+.offcan-img{
+    width: 250px !important;
+    height: 300px;
+}
+
+.offcan-img:hover{
+   transform: skew(-5deg);
+   transition: ease all 1s;
+}
+
+.offcan-price{
+   color: #017DBF; 
+   font-weight: bold;
+}
+.offcan-header{
+    color: crimson;
+}
+/* ======================================Footer================================================== */
+footer{
+    background-color:#017DBF ;
+}
+/* ==========================More customize style (other)=============================== */
+.myIcon{
+    font-size: 30px;
+    color:black;
+}
+.text-header{
+    border-bottom: crimson solid 5px;
+}
+.rightToLeft{
+    direction: rtl;
+}
+.btn-dark:hover{
+    background-color: crimson!important;
+    border-radius: 20px;
+    transform: 1s ease all;
+}
+
+.btn-primary{
+    background-color: #017DBF;
+}
+
+.btn-primary:hover{
+    background-color: crimson !important;
+    border-radius: 20px;
+    transition:  1s ease all;
+}
+/* Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #017DBF; 
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: crimson; 
+  }

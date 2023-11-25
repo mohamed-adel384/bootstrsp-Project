@@ -1,0 +1,55 @@
+Extintion:-
+* bootstrap autocomplete (in visual studio code)
+* auto rename Tag (in visual studio code)
+* live server (in visual studio code)
+* ColorPick Eyedropper (in chrome)
+======================Navbar============================
+1- navbar = Header = div
+2- me => margin end && mx => margin axis (x)
+3- Dropdown Toggle id --> Toggle id
+4- class="contanier" => بيسيب مسافة من هنا و من هنا بتساوي class="container-fluied" => 
+بيلزقها من اول الصفحة
+5- fixed-top => بيخلي ال ناف بار ثابت معايا في الاسكرول
+=========================Slider == Carsoul=============================
+1- transform: 1s ease all; => بيتحكم في زمن التغير لي اي شكل
+
+2- transition:ease 0.7s ; => بيتحكم في زمن التغير لي اي شكل
+
+===========================offCanvas==========================================
+1- transform: rotate skew(-5deg); &&  transition: ease all 1s; بيغير حركة الصورة
+
+
+===============================products=========================================
+1- d-flex => بتحوي كذا حاجة جواها jusfiy-content : center or space-evenly or betwwen
+2- d-flex flex-wrap
+3- Modal in bootstrap
+
+=====================================Contact us================================
+1-w-50 mx-auto => بتخليها في النص بنسبه 50 في الميه
+2-Form-control in bootstrap && input-group
+3- border-radius: 20px 0px 0px 20px; البداية من الشمال فوق
+4- Form was Validated
+
+====================================bestselling===========================================
+1- transform:rotate(5deg) scale(1.1);
+    transition:ease all 1s;
+
+================================contract==============================
+1- collapse v5 bootsatrap
+2- Accordion v5 bootstrap
+==============================Grid System == Flex==================================
+1- Responsive design => تظبيط حجم شاشة علي لاب و تابلت و الموبايل
+2- one Row = 12 col   ----->> بتعامل بالعمود
+3- col-lg-3  col-md-6  col-sm-12 ----->>>> بتعامل بالعمود
+4- col-lg-3  col-sm-12  => col-sm-12 == col-md-12 ------>>> بتعامل بالعمودd
+=================================Footer======================================
+1- Done
+=======================================Scroll Bar===================================
+1- scroll bar css
+2- https://iconscout.com/lotties/lottie?price=free => 
+3- https://wowjs.uk/ ==> Animated
+4- translate Animated css ==> Image
+
+=======================================bootstrap Filter Products===================================
+1- isotope js
+2- cdn js
